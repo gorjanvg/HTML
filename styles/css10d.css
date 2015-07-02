@@ -1,0 +1,24 @@
+.navigacija{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.navigacija li{
+	width: 100px;
+	height: 25px;
+	background-color: orange;
+	text-align: center;	
+	float: left;
+	margin: 5px;
+	padding: 3px;
+	box-sizing: border-box;
+	border-radius: 15px;
+}
+.navigacija li:hover{
+	background-color: black;
+	color: white;
+}
+.navigacija li a{
+	color: inherit;
+	text-decoration: none;
+}
