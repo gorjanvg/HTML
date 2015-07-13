@@ -1,0 +1,64 @@
+body {
+	background-image: url("..//images/apple4.jpg");
+	background-size: 100%;
+}
+*{
+	padding: 0;
+	margin: 0;
+	font-family: sans-serif;
+	font-weight: bold;
+	list-style: none;
+}
+.site-header{
+	position: ;
+	width: 100%;
+	height: 60px;
+	background-color: #333333;
+}
+.site-header h1{
+	color: #F5F5F5;
+	float: left;
+	padding: 12px 0 0 12px;
+	font-weight: bold;
+	margin-left: 15px;
+}
+.site-header nav {
+	float: right;
+	padding: 21px 12px 0 0;
+}
+.site-header nav a{
+	margin-left: 15px;
+	text-decoration: none;
+	font-weight: bold;
+	color: #F5F5F5;
+	margin-right: 15px;
+}
+.site-header nav a:hover{
+	color: orange;
+}
+.navigacija ul{
+	list-style: none;
+	padding: 0px;
+	margin: 15px;
+}
+.navigacija li{
+	width: 100px;
+	height:25px;
+	background-color: #333333;
+	text-align: center;
+	float: left;
+	margin: 5px;
+	padding: 3px;
+	box-sizing: border-box;
+	border-radius: 15px;
+	margin-left: 15px;
+	color: orange;	
+}
+.navigacija li:hover{
+	background-color: #5D5E5E;
+	color: #FFFAF0;
+}
+.navigacija li a{
+	text-decoration: none;
+	color: inherit;
+}

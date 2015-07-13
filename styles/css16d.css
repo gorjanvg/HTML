@@ -1,0 +1,67 @@
+body{
+	background-color: black;
+}
+
+*{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	font-family: sans-serif;
+}
+
+.site-header {
+	width: 100%;
+	height: 60px;
+	background: black;
+}
+.site-header h1 {
+	color: #F0F8FF;
+	float: left;
+	padding: 12px 0 0 12px;
+}
+.site-header nav{
+	float: left;
+	margin-left: 400px;
+	padding: 21px 12px 0 0;
+}
+.site-header nav a{
+	color: #F0F8FF;
+	text-decoration: none;
+	margin-right: 30px;
+}
+.site-header nav a:hover{
+	color: orange;
+}
+form{
+	float: right;
+	padding: 21px 50px 0 0;
+	font-family: sans-serif;
+	color: #F0F8FF;
+}
+.navigacija ul{
+	list-style: none;
+	padding: 0px; 
+	margin: 0px; 
+	font-family: sans-serif; 
+}
+.navigacija li{
+	width: 100px;
+	height: 25px;
+	background:silver;
+	text-align: center;
+	float: left;
+	margin:5px;
+	padding: 3px;
+	box-sizing:border-box;
+	border-radius: 15px;  
+}
+.navigacija li:hover{
+	background-color: #4169E1;
+	color:#DEDEDE;
+
+}
+.navigacija li a{
+	display: block;
+	color:inherit;
+	text-decoration: none;
+}
