@@ -1,0 +1,37 @@
+ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.navigation > li{
+	float: left;
+	width: 150px;
+	text-align: center;
+	margin: 5px;
+	background-color: black;
+	color: silver;
+	position: relative;
+}
+.navigation > li > ul{
+	position: absolute;
+	display: none;
+}
+
+.navigation > li:hover > ul{
+	display: block;
+}
+.navigation > li > ul > li {
+	background-color: red;
+	width: 150px;
+	margin: 5px 5px 5px 0;
+}
+/************************************/
+nav {
+	display: block;
+	width: 100%;
+	text-align: center;
+}
+nav a, nav h2 {
+	display: inline-block;
+	width: 100px;
+}

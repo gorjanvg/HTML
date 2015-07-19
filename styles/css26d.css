@@ -1,0 +1,63 @@
+*{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.navigation{
+	width: 100%;
+	height: 60px;
+	background-color: black;
+}
+ul{
+	font-family: sans-serif;
+	color: silver;
+}
+.navigation > li{
+	float: left;
+	width: 150px;
+	background-color: black;
+	margin: 5px;
+	text-align: center;	
+	padding: 12px 0 012px;
+	position: relative;
+}
+.navigation > li > ul{
+	position: absolute;
+	display: none;
+}
+.navigation > li:hover > ul{
+	display: block;
+}
+.navigation > li > ul >li{
+	background-color: black;
+	width: 150px;
+	margin: 5px 5px 5px 0px;
+	text-align: center;
+}
+.navigation h1{
+	float: right;
+	padding: 12px 12px 12px 0;
+}
+.navigacija {
+	list-style: none;
+	padding: 0;
+	margin:5px;
+}
+.navigacija li {
+	width: 100px;
+	height: 25px;
+	background-color: black;
+	margin: 5px;
+	padding: 3px;
+	text-align: center;
+	float: left;
+	box-sizing:border-box;
+	border-radius: 15px;
+}
+.navigacija li a {
+	text-decoration: none;
+	color: silver;
+}
+.navigacija li a:hover{
+	color: orange;
+}
