@@ -1,0 +1,46 @@
+*{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+.site-header{
+	width: 100%;
+	height: 60px;
+	background-color: #FF0000;	
+}
+.site-header h1{
+	color: silver;
+	float: left;
+	padding: 12px 0 0 12px;
+	text-transform: uppercase;
+}
+.site-header nav {
+	float: right;
+	padding: 21px 12px 0 0;
+	margin-right: 15px;
+}
+.site-header nav a{
+	color: silver;
+	text-decoration: none;
+	margin-right: 15px;
+	font-weight: bolder;
+	text-transform: uppercase;
+}
+.site-header nav a:hover{
+	color: white;
+}
+html, body{
+	height: 100%;
+}
+body{
+	background-color: none;
+}
+.image{
+	margin-top: 3px;
+	width: 100%;
+	height:600px;
+	background-image: url(../images/frosfood.jpg);
+	background-position: center center;
+	background-size: 800px 600px;
+	background-repeat: no-repeat;
+}

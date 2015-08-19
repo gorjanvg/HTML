@@ -1,0 +1,92 @@
+*{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	font-family: sans-serif;
+	/*font-weight: bolder;*/
+}
+.navigation {
+	display: block;
+	width: 100%;
+	height: 60px;
+	background-color: black;
+	text-align: center;
+}
+.navigation a, .navigation h5 {
+	display: inline-block;
+	text-decoration: none;
+	font-size: 20px;
+	width: 150px;
+	margin: 10px auto 10px auto;
+	
+}
+.navigation a{
+	color: #818181;
+	text-transform: uppercase;	
+}
+.navigation a:hover{
+	color: #20608C;
+}
+.navigation h5{
+	color: white;
+	font-size: 30px;
+}
+.ourteam {
+	text-align: center;
+	font-family: sans-serif;
+	width: 840px;
+	margin: 0px auto;
+}
+.ourteam h2{
+	margin-top: 50px;
+	font-size: 50px;
+	color: #323232;
+}
+.ourteam hr{
+	margin: 50px auto;
+	width: 185px;
+	color: #D0D0D0;
+}
+
+.ourteam span{
+	margin: 50px auto;
+	width: 200%;
+	font-size: 20px;
+	color: #D0D0D0;.
+}
+
+/****************************************/
+
+.posts {
+	width: 840px;
+	margin: 50px auto;
+}
+
+	.posts > div {
+		width: 400px;
+		margin: 10px;
+		height: 400px;
+		float: left;
+		opacity: .5;
+		transition: all .5s ease-out;
+	}
+
+	.posts > div:hover {
+		opacity: 1;
+	}
+
+		.posts > div img {
+			width: 400px;
+			height: 250px;
+		}
+
+		.posts > div span {
+			font-weight: bold;
+			display: block;
+			padding: 10px 0;
+			font-size: 18px;
+		}
+
+		.posts > div p {
+			
+		}

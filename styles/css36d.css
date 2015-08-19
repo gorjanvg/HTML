@@ -10,20 +10,23 @@
 	display: block;
 	text-align: center;
 }
-.site-header h5{
-	color: white;
-	font-size: 40px;
-	font-weight: normal;
+.site-header a, .site-header h5{
+	font-size: 20px;
+	text-decoration: none;
 	display: inline-block;
+	width: 150px;
+	margin: 10px auto 10px auto;
 }
 .site-header a{
-	margin: 25px;
+	color: #6C6C6C;
 	text-transform: uppercase;
-	text-decoration: none;
-	color: #4A4A4A;	
 }
 .site-header a:hover{
 	color: #236FA0;
+}
+.site-header h5{
+	color: white;
+	font-size: 30px;
 }
 .image h1{
 	margin-top: 50px;

@@ -1,0 +1,101 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+.cleaner{
+	display: block;
+	clear: both;
+}
+.navigacija {
+	width: 100%;
+	height: 60px;
+	background-color: black;
+	text-align: center;
+	display: block;
+}
+.navigacija a, .navigacija h5{
+	display: inline-block;
+	width: 150px;
+	font-size: 20px;
+	margin: 10px auto 10px auto;
+	text-decoration: none;
+}
+.navigacija a{
+	color: #6C6C6C;
+	text-transform: uppercase;
+}
+.navigacija a:hover{
+	color: #20608C;
+}
+.navigacija h5{
+	color: white;
+	font-size: 30px;
+}
+.text h2{
+	font-size: 30px;
+	text-align: center;
+	margin: 50px auto;
+	font-weight: normal;
+}
+.text hr{
+	display: block;
+	width: 10%;
+	margin: 50px auto 50px auto;
+}
+.text span{
+	display: block;
+	font-size: 20px;
+	margin: 50px auto;
+	width: 70%;
+	text-align: center;
+}
+.people{
+	width: 800px;
+	margin: 0 auto 100px auto;
+}
+div.img{
+	padding: 5px;
+	box-sizing:border-box;
+	width: 25%;
+	height: auto;
+	float: left;
+	text-align: center;
+}
+div.img img{
+	display: inline;
+	margin: 2px;
+	width: 100%;
+}
+div.name{
+	margin: 5px;
+	font-weight: bold;
+}
+.img ul{
+	list-style: none;
+}
+.img ul li {
+	display: inline-block;
+	padding: 10px 10px;
+}
+footer{
+	width: 100%;
+	height: 60px;
+	background-color: black;
+}
+.futer ul{
+	float: left;
+	list-style: none;
+	font-size: 15px;
+	padding:30px 0 0 200px;
+	color: #666666;
+}
+.futer ul li {
+	display: inline;
+	margin-left: 15px;
+}
+.futer p{
+	float: right;
+	color: #666666;
+	font-size: 15px;
+	padding-right: 50px;
+}

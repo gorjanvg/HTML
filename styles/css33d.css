@@ -1,0 +1,138 @@
+*{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+html, body{
+	height: 100%;
+}
+body{
+	background: none;
+}
+.image{
+	width: 100%;
+	height:600px;
+	background-image: url(../images/slika.jpg);
+	background-position: center center;
+	background-size: cover;
+	text-align: center;
+}
+ h2{
+	font-size: 15px;
+	padding-top: 190px;
+	color: silver;
+	font-weight: normal;
+}
+ h3{
+	padding-top:20px;
+	font-size: 50px;
+	color: white;
+	font-weight: normal;
+	text-transform: uppercase;
+}
+ h4{
+	padding-top: 50px;
+	font-size: 15px;
+	color: silver;
+}
+button{
+	background: none;
+	margin: 40px auto;
+	padding: 10px;
+	font-style: 15px;
+	border: 1px solid blue;
+}
+.navigation{
+	display: block;
+	width: 100%;
+	height: 60px;
+	background-color: black;
+	text-align: center;
+}
+.navigation a, .navigation h5{
+	display: inline-block;
+	width: 150px;
+}
+.navigation	a{
+	color: #BBC1C2;
+	font-size: 20px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+.navigation a:hover{
+	color: #3888BE
+}
+.navigation h5{
+	font-size:  40px;
+	color: white;
+}
+.service{
+	width: 100%;
+	box-sizing:border-box;
+	padding:50px;
+	background-color: #ECF0F1;
+	text-align: center;
+}
+.service h2{
+	font-size: 50px;
+	color: black;
+	text-transform: uppercase;
+	padding-top: 0px;
+}
+.service hr{
+	margin: 30px auto 30px auto;
+	width: 20%;
+}
+.service span{
+	display: block;
+	width: 65%;
+	margin: 0 auto;
+}
+.svc {
+	list-style: none;
+	margin: 80px 0 0 0;
+	padding: 0;
+}
+.svc li{
+	display: inline-block;
+	width: 80px;
+	height: 80px;
+	transition:transform .3s linear;
+	cursor: pointer;
+}
+.svc li:hover{
+	color: #63a1c9;
+}
+.svc li a{
+	text-decoration: none;
+	color: inherit;
+}
+.svc li i{
+	font-size: 40px;
+}
+.svc li span{
+	margin-top: 10px;
+}
+.clients {
+	width: 100%;
+	background-color: #FFFFFF;
+	text-align: center;
+	padding: 50px;
+	box-sizing:border-box;
+}
+.clients h2{
+	color: black;
+	font-size: 45px;
+	text-transform: uppercase;
+	padding: 0;
+}
+.clients hr{
+	width: 200px;
+	margin: 30px auto 30px auto;
+}
+.clients span{
+	display: block;
+	color: black;
+	margin: 0 auto;
+	width: 65%;
+}

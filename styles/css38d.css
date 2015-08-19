@@ -1,0 +1,120 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+.cleaner {
+	display: block;
+	clear: both;
+}
+
+.navigacija{
+	width: 100%;
+	height: 60px;
+	background-color: black;
+	text-align: center;
+	display: block;
+}
+.navigacija a, .navigacija h5{
+	display: inline-block;
+	text-decoration: none;
+	font-size:20px;
+	width: 150px;
+	margin: 10px auto 10px auto;
+}
+.navigacija a {
+	color: #6C6C6C;
+	text-transform: uppercase;
+}
+.navigacija a:hover{
+	color: #20608C;
+	cursor: pointer;
+}
+.navigacija h5{
+	color: white;
+	font-size: 30px;
+}
+.text h2{
+	font-size: 30px;
+	text-align: center;
+	margin-top: 50px;
+	font-weight: normal;
+	color: black;
+}
+.text hr{
+	display: block;
+	width: 10%;
+	margin: 50px auto 50px auto;
+}
+.text span{
+	margin: 50px auto;
+	width: 70%;
+	display: block;
+	font-size: 20px;
+	text-align: center;
+}
+
+div.img{
+	
+	padding: 5px;
+	box-sizing: border-box;
+	width: 25%;
+	height: auto;
+	float: left;
+	text-align: center;
+}
+div.img img{
+	display: inline;
+	margin: 2px;
+	width: 100%;
+}
+div.img span{
+	text-align: center;
+	float: center;
+	width: 50%;
+	font-size: 10px;
+}
+div.dsec{
+	text-align: center;
+	font-weight: normal;
+	width: 120px;
+	margin: 5px;
+}
+
+.img ul {
+	list-style: none;
+	padding-top: 10px;
+}
+.img ul li {
+	display: inline-block;
+	padding: 0 10px;
+
+}
+
+footer {
+	width: 100%;
+	height: 60px;
+	background-color: #000;
+}
+
+.people{
+	width: 800px;
+	margin: 0 auto 100px auto;
+}
+.futer ul {
+	float: left;
+	list-style:none;
+	font-size: 15px;
+	padding: 30px 0 0 200px;
+	color: #666666;
+}
+.futer ul li{
+	display: inline;
+	margin-left: 15px;
+}
+.futer p{
+	float: right;
+	color: #666666;
+	font-size: 15px;
+	padding-right: 50px;
+}

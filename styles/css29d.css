@@ -1,0 +1,126 @@
+*{
+	padding:0px;
+	margin: 0px;
+	font-family: sans-serif;
+}
+.site-header{
+	width: 100%;
+	height: 60px;
+	background-color: black;
+}
+.site-header h1{
+	color: silver;
+	float: left;
+	padding:15px 0 0 12px;*/
+	font-weight: bolder;
+	text-transform: uppercase;
+	margin-right: 200px;
+}
+.site-header nav{
+	float: right;
+	padding: 25px 25px 0 0;
+}
+.site-header nav a{
+	color: silver;
+	text-decoration: none;
+	margin-left: 15px;
+	text-transform: uppercase;
+}
+.site-header nav a:hover{
+	color: #5CACEE;
+}
+
+.navigation ul{
+	padding: 20px;
+}
+ul{
+	list-style: none;
+	padding: 20px;
+}
+.navigation >li{
+	float: left;
+	width: 150px;
+	text-align: center;
+	margin: 5px;
+	background-color: black;
+	color: silver;
+	position: relative;
+}
+.navigation >li > ul{
+	position: absolute;
+	display: none;
+}
+.navigation > li:hover > ul{
+	display: block;
+	color: #5CACEE;
+}
+.navigation >li > ul > li{
+	background-color:black;
+	width: 150px;
+	margin: 10px 5px 5px 0; 
+}
+html, body{
+	height: 100%;
+}
+body{
+	background-color: none;
+	
+}
+.image{
+	width: 100%;
+	height: 600px;
+	background-image: url(../images/dell.jpg);
+	background-position: center center;
+	background-size: cover;
+}
+h2{
+	font-size: 25px;
+	padding-top: 190px;
+	color: #5CACEE;
+	font-weight: normal;
+	text-align: center;
+}
+h3{
+	font-size: 50px;
+	color: silver;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: normal;
+	padding-top: 20px;
+	text-align: center;
+}
+h4{
+	font-size: 25px;
+	color: orange;
+	padding-top: 20px;
+	text-align: center;
+}
+button{
+	background: none;
+	color: #1A176E;
+	margin: 40px 600px auto;
+	padding: 10px;
+	font-size: 15px;
+	border: 2px solid blue;
+}
+p {
+	color: #5CACEE;
+	font-size: 20px;
+	margin-top: 25px;
+	margin-left: 15px;
+	text-decoration: none;
+	font-weight: normal;
+}
+.checkbox{
+	color: #5CACEE;
+	float: left;
+	padding: 20px 0px 0px 20px;
+}
+.checkbox button{
+	background: none;
+	margin-top: 5px;
+	margin-left: 10px;
+	font-size: 15px;
+	color: #1A176E;
+	border: 2px solid blue;
+}
